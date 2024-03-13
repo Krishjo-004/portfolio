@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+
+</head>
+<style>
+
+*{
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration:underline;
+    color:blue;
+}
+header{
+
+    display:flex;
+    justify-content: space-between;
+    margin:20px;
+    padding:10px;
+    color:black;
+    align-items: center;
+}
+#main{
+    color:black;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.grad{
+    background-image: linear-gradient(to right ,blue, purple,red);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+section{
+    display: flex;
+    justify-content:center;
+}
+section h1{
+    font-size: 45pt;
+}
+section h5{
+    font-size: 15pt;
+   
+}
+section h3{
+     font-size: 20pt;
+}
+button{
+    background-color:rgba(255, 166, 0, 0.829);
+    border: solid 3px black;
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right:30px;
+    margin-left: 10px;
+    margin-top: 35px;
+    padding: 15px;
+    border-radius: 25px;
+    width: 160px;
+}
+button:hover{
+    background-color: grey;
+    color:black;
+}
+
+#image{
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-top:50px;
+    
+}
+footer{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#z{
+    border-radius: 195px;
+}
+
+#menubar>a{
+margin: 0 20px;
+}
+    
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        max-width: 800px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image {
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .image img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .content {
+        flex: 1;
+        padding: 20px;
+    }
+
+    .content h2 {
+        margin-top: 0;
+    }
+
+    .education {
+        margin-top: 20px;
+        text-align: center;
+        font-style: italic;
+    }
+</style>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Portfolio</h1>
+        </div>
+
+        <div id="menubar">
+            <a href="index.html"><b>HOME</b></a>
+            <a href="about.html"><b>ABOUT</b></a>
+            <a href="skills.html"><b>SKILLS</b></a>
+            <a href="projects.html"><b>PROJECTS</b></a>
+            <a href="contact.html"><b>CONTACT ME</b></a>
+        </div>
+
+    </header>
+
+
+    <div class="container">
+        <div class="image">
+            <img src="img.jpg" alt="Your Image">
+        </div>
+        <div class="content">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo eros nec metus fermentum, vel
+                fermentum risus vulputate. Nulla facilisi.</p>
+            <p>Donec sit amet augue non mi efficitur pulvinar vitae a nisi. Proin elementum purus id mauris
+                pellentesque, nec tincidunt elit dapibus.</p>
+        </div>
+    </div>
+
+    <!-- <div class="education">
+    <p>Education: Your Education Time</p>
+</div> -->
+
+</body>
+
+</html>
